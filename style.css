@@ -1,0 +1,43 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0px;
+    background-color: #111111;
+}
+
+#odin {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    background-color: #222222;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container:hover {
+    border: 1px solid rgb(50, 50, 50);
+    transition: ease-in-out 0.2s;
+}
+
+#container:active {
+    width: 95px;
+    height: 95px;
+}
+
+#image {
+    width: 50%;
+    height: 50%;
+}
